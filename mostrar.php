@@ -1,5 +1,5 @@
 <?php
-$conexion = new mysqli("localhost","id3769535_fort","00000","id3769535_php");
+$conexion = new mysqli("localhost","usuario","contraseña","nombre base de datos");
 $consulta = "select id_detalle, monto, descrip, fecha, id_item from tbl_detalle";
 $datos = array();
 $res = $conexion->query($consulta);
